@@ -1,15 +1,17 @@
 import Menu from "./MainLayout/Menu";
 import Navbar from "./MainLayout/Navbar";
 import Notes from "./MainLayout/Notes";
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>Google Keep</h1>
+    <div className="app">
       <Menu />
-      <Navbar />
-      <Notes />
-    </>
+      <div className="appContainer">
+        <Navbar />
+        <Notes />
+      </div>
+    </div>
   );
 }
 
