@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Geist";
+  src: url("/public/fonts/GeistMono-1.3.0/") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Geist", monospace;
+}
+
 .home {
   display: flex;
   flex-direction: column;

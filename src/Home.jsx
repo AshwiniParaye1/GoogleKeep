@@ -1,6 +1,7 @@
 import Menu from "./MainLayout/Menu.jsx";
 import Navbar from "./MainLayout/Navbar.jsx";
 import Notes from "./MainLayout/Notes.jsx";
+import "./App.css";
 
 function Home() {
   return (
