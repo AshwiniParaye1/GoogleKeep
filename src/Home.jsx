@@ -1,15 +1,18 @@
-import Menu from "./MainLayout/Menu.jsx";
-import Navbar from "./MainLayout/Navbar.jsx";
-import Notes from "./MainLayout/Notes.jsx";
 import "./App.css";
 
 function Home() {
   return (
     <div className="home">
-      <Menu />
+      <h1>
+        <a href="/menu">Menu</a>
+      </h1>
       <div className="homeContainer">
-        <Navbar />
-        <Notes />
+        <h1>
+          <a href="/navbar">Navbar</a>
+        </h1>
+        <h1>
+          <a href="/notes">Notes</a>
+        </h1>
       </div>
     </div>
   );
