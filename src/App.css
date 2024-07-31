@@ -60,3 +60,16 @@ input.search {
   padding: 9px 4px 9px 40px;
   background: transparent url("./assets/icons/search.svg") no-repeat 13px;
 }
+
+.refListSetContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.appsProfileContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}

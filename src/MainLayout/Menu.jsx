@@ -1,10 +1,10 @@
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 
 function Menu() {
   return (
     <>
-      <Navbar />
-      <h1>Menu</h1>
+      {/* <Navbar /> */}
+      <p>Menu</p>
     </>
   );
 }
