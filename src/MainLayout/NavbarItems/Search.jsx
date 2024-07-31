@@ -1,5 +1,11 @@
+import "../../App.css";
+
 function Search() {
-  return <div>Search</div>;
+  return (
+    <div>
+      <input className="search" type="search" placeholder="Search..." />
+    </div>
+  );
 }
 
 export default Search;

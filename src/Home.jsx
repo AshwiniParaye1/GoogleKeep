@@ -1,13 +1,10 @@
 import "./App.css";
-import keep from "./assets/icons/keep.svg";
+import Navbar from "./MainLayout/Navbar";
 
 function Home() {
   return (
     <div className="home">
-      {/* <h1>Navbar</h1> */}
-      <a href="/">
-        <img src={keep} alt="Keep Icon" />
-      </a>
+      <Navbar />
       <div className="homeContainer">
         <h1>
           <a href="/menu">Menu</a>

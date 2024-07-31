@@ -35,6 +35,28 @@ a {
 img {
   height: 3rem;
   width: 3rem;
-  margin: 0px 0px 4px;
-  padding: 0px 4px 0px 0px;
+}
+
+.keepLogo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+input[type="search"] {
+  border-radius: 8px;
+}
+
+input.search {
+  width: 260px;
+  border: 1px solid #555;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("./assets/icons/search.svg") no-repeat 13px;
 }
