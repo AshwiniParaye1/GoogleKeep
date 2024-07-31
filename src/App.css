@@ -7,24 +7,9 @@
 
 body {
   font-family: "Geist", monospace;
-}
-
-.home {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-color: aqua;
-  /* text-align: center; */
-  border: 4px solid black;
-  margin: 20px 20px;
-}
-.homeContainer {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-  background-color: blueviolet;
-  gap: 20px;
-  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f3f4;
 }
 
 a {
@@ -33,43 +18,71 @@ a {
 }
 
 img {
-  height: 3rem;
-  width: 3rem;
-}
-
-.keepLogo {
-  display: flex;
-  justify-content: flex-start;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .navbarContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.keepLogo {
+  display: flex;
+  align-items: center;
+}
+
+.keepLogo img {
+  margin-right: 10px;
+}
+
+.keepLogo p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #5f6368;
+}
+
+.navMenu {
+  margin-right: 15px;
+}
+
+.searchNavbarContainer {
+  flex-grow: 1;
+  max-width: 600px;
 }
 
 input[type="search"] {
+  width: 100%;
+  border: 1px solid #dfe1e5;
   border-radius: 8px;
-}
-
-input.search {
-  width: 260px;
-  border: 1px solid #555;
-  display: block;
+  background-color: #f1f3f4;
+  font-size: 14px;
+  box-shadow: none;
+  outline: none;
   padding: 9px 4px 9px 40px;
   background: transparent url("./assets/icons/search.svg") no-repeat 13px;
 }
 
-.refListSetContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
+.refListSetContainer,
 .appsProfileContainer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
+}
+
+.refListSetContainer svg,
+.appsProfileContainer svg {
+  width: 24px;
+  height: 24px;
+  color: #5f6368;
+  cursor: pointer;
+}
+
+.refListSetContainer svg:hover,
+.appsProfileContainer svg:hover {
+  color: #202124;
 }
