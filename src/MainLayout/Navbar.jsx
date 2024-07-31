@@ -1,12 +1,12 @@
 import "../App.css";
-import keep from "../assets/icons/keep.svg";
-import Refresh from "./NavbarItems/Refresh";
 import Search from "./NavbarItems/Search";
-import ListView from "./NavbarItems/ListView";
-import Settings from "./NavbarItems/Settings";
-import GoogleApps from "./NavbarItems/GoogleApps";
-import Profile from "./NavbarItems/Profile";
 import Menu from "./Menu";
+import keep from "../assets/icons/keep.svg";
+import { Grip } from "lucide-react";
+import { CircleUserRound } from "lucide-react";
+import { RotateCw } from "lucide-react";
+import { StretchHorizontal } from "lucide-react";
+import { Settings } from "lucide-react";
 
 function Navbar() {
   return (
@@ -27,13 +27,13 @@ function Navbar() {
           <Search />
         </div>
         <div className="refListSetContainer">
-          <Refresh />
-          <ListView />
+          <RotateCw />
+          <StretchHorizontal />
           <Settings />
         </div>
         <div className="appsProfileContainer">
-          <GoogleApps />
-          <Profile />
+          <Grip />
+          <CircleUserRound />
         </div>
       </div>
     </>

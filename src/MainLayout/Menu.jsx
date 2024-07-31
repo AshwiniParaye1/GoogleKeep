@@ -1,11 +1,10 @@
-// import Navbar from "./Navbar";
+import { AlignJustify } from "lucide-react";
 
 function Menu() {
   return (
-    <>
-      {/* <Navbar /> */}
-      <p>Menu</p>
-    </>
+    <div>
+      <AlignJustify />
+    </div>
   );
 }
 
