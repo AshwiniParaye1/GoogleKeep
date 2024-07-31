@@ -1,5 +1,6 @@
 import "../App.css";
 import keep from "../assets/icons/keep.svg";
+import Refresh from "./NavbarItems/Refresh";
 import Search from "./NavbarItems/Search";
 
 function Navbar() {
@@ -16,6 +17,9 @@ function Navbar() {
         </div>
         <div className="searchNavbarContainer">
           <Search />
+        </div>
+        <div className="refresh">
+          <Refresh />
         </div>
       </div>
     </>
