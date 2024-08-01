@@ -1,6 +1,6 @@
 import "../App.css";
 import Search from "./NavbarItems/Search";
-import Menu from "./Menu";
+import Menubar from "./Menubar";
 import keep from "../assets/icons/keep.svg";
 import { Grip } from "lucide-react";
 import { CircleUserRound } from "lucide-react";
@@ -14,7 +14,7 @@ function Navbar() {
       <div className="navbarContainer">
         <div className="keepLogo">
           <div className="navMenu">
-            <Menu />
+            <Menubar />
           </div>
           <a href="/">
             <img src={keep} alt="Keep Icon" />

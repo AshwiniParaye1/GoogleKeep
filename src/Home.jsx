@@ -7,7 +7,7 @@ function Home() {
       <Navbar />
       <div className="homeContainer">
         <h1>
-          <a href="/menu">Menu</a>
+          <a href="/menubar">Menu</a>
         </h1>
         <h1>
           <a href="/notes">Notes</a>
