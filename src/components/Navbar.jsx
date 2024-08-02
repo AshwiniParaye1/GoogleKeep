@@ -1,5 +1,5 @@
 import "../App.css";
-import Search from "./NavbarItems/Search";
+import Search from "../MainLayout/NavbarItems/Search";
 import Menubar from "./Menubar";
 import keep from "../assets/icons/keep.svg";
 import { Grip } from "lucide-react";
