@@ -25,16 +25,29 @@ function Navbar() {
           </Link>
         </div>
         <div className="searchNavbarContainer">
-          <Search />
+          <button style={{ border: "none", background: "none" }}>
+            <Search />
+          </button>
         </div>
         <div className="refListSetContainer">
-          <RotateCw />
-          <StretchHorizontal />
-          <Settings />
+          <button style={{ border: "none", background: "none" }}>
+            {" "}
+            <RotateCw />
+          </button>
+          <button style={{ border: "none", background: "none" }}>
+            <StretchHorizontal />
+          </button>
+          <button style={{ border: "none", background: "none" }}>
+            <Settings />
+          </button>
         </div>
         <div className="appsProfileContainer">
-          <Grip />
-          <CircleUserRound />
+          <button style={{ border: "none", background: "none" }}>
+            <Grip />
+          </button>
+          <button style={{ border: "none", background: "none" }}>
+            <CircleUserRound />
+          </button>
         </div>
       </div>
     </>
