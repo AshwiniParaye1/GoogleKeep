@@ -2,7 +2,7 @@ import { AlignJustify } from "lucide-react";
 
 function Menu() {
   return (
-    <div>
+    <div style={{ display: "flex", width: "100%" }}>
       <AlignJustify />
     </div>
   );
