@@ -1,16 +1,15 @@
 import "../../App.css";
-import Navbar from "../Navbar";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <div className="home">
-      <Navbar />
       <div className="homeContainer">
         <h1>
-          <a href="/menubar">Menu</a>
+          <Link to="/menubar">Menu</Link>
         </h1>
         <h1>
-          <a href="/notes">Notes</a>
+          <Link to="/notes">Notes</Link>
         </h1>
       </div>
     </div>

@@ -8,10 +8,10 @@ import "./App.css";
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menubar" element={<Menubar />} />
-        <Route path="/navbar" element={<Navbar />} />
         <Route path="/notes" element={<Notes />} />
       </Routes>
     </Router>
